@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TimeKeeper - Simplify Employee Time Tracking</title>
+</head>
+<body>
+  <h1>Welcome to TimeKeeper - Simplify Employee Time Tracking</h1>
+  
+  <h2>Key Features:</h2>
+  <ol>
+    <li>Clock In/Out with Ease: Our intuitive clock in/out feature allows employees to effortlessly record their working hours with a single click. Say goodbye to tedious manual time tracking and ensure accurate attendance records.</li>
+    <li>Real-Time Team Monitoring: Keep track of your team's activities in real-time with our supervisor dashboard. Monitor who's currently clocked in, track breaks, and optimize workforce productivity with ease.</li>
+    <li>Seamless Reporting and Analytics: Generate comprehensive reports on employee work hours, overtime, and project-specific time allocations. Gain valuable insights into productivity trends, identify areas for improvement, and simplify payroll processing.</li>
+    <li>Customizable Time Categories: Tailor TimeKeeper to your unique business needs by creating custom time categories. Whether it's regular working hours, overtime, or special projects, TimeKeeper adapts to your time tracking requirements.</li>
+    <li>Integrations and API: Seamlessly integrate TimeKeeper with your existing HR and payroll systems using our powerful API. Connect with popular tools like Slack, Google Calendar, and more to streamline your workflow.</li>
+  </ol>
+  
+  <h3>Get Started with TimeKeeper Today!</h3>
+  <p>Experience the benefits of efficient time tracking and enhanced workforce management. <a href="https://www.timekeeperapp.com/signup">Sign up for TimeKeeper</a> now and revolutionize the way you track employee work hours.</p>
+  <p>Or <a href="https://www.timekeeperapp.com">learn more</a> about TimeKeeper.</p>
+</body>
+</html>
