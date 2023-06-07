@@ -1,15 +1,15 @@
-Employee Time Management
+TimeKeeperApp
 ===========
 
-Django Employee Time Management app.
+Django TimeKeeperApp.
 
-Completed by John Doran as part of Dazult's graduate developer staff training programme.
+Completed by Okagua Kenoye as part of ALX SE training programme .
 
 
 Overview
 ===========
 
-The purpose of the timekeeping app is to record employees daily hours worked, 
+The purpose of the timekeeper app is to record employees daily hours worked, 
 and store the clock-in and clock-out information in a database. the employee can request 
 leave on the basis that a days notice is required for a day off, and a weeks notice is 
 required for a week off.
