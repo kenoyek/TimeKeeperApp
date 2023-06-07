@@ -1,21 +1,39 @@
-# TimeKeeper - Simplify Employee Time Tracking
+Employee Time Management
+===========
 
-Welcome to TimeKeeper, the all-in-one employee time tracking solution designed to streamline your workforce management process. Say goodbye to manual timesheets and cumbersome spreadsheets, and embrace a modern, automated approach to tracking and managing employee work hours.
+Django Employee Time Management app.
 
-# Key Features:
+Completed by John Doran as part of Dazult's graduate developer staff training programme.
 
-*Clock In/Out with Ease: Our intuitive clock in/out feature allows employees to effortlessly record their working hours with a single click. Say goodbye to tedious manual time tracking and ensure accurate attendance records.
 
-*Real-Time Team Monitoring: Keep track of your team's activities in real-time with our supervisor dashboard. Monitor who's currently clocked in, track breaks, and optimize workforce productivity with ease.
+Overview
+===========
 
-*Seamless Reporting and Analytics: Generate comprehensive reports on employee work hours, overtime, and project-specific time allocations. Gain valuable insights into productivity trends, identify areas for improvement, and simplify payroll processing.
+The purpose of the timekeeping app is to record employees daily hours worked, 
+and store the clock-in and clock-out information in a database. the employee can request 
+leave on the basis that a days notice is required for a day off, and a weeks notice is 
+required for a week off.
 
-*Customizable Time Categories: Tailor TimeKeeper to your unique business needs by creating custom time categories. Whether it's regular working hours, overtime, or special projects, TimeKeeper adapts to your time tracking requirements.
+When an employee accesses the application they can:
 
-*Integrations and API: Seamlessly integrate TimeKeeper with your existing HR and payroll systems using our powerful API. Connect with popular tools like Slack, Google Calendar, and more to streamline your workflow.
+    - Enter there employee ID, password and Clock-in or Clock-out when authenticated.
+    - Constraints:
+        ~ If the employee is already logged in they cannot login again until they log out first
+        ~ The employee cannot logout, after twelve hours from previous login (must contact manager to log them out)
+    - On the holiday request form they can enter there employee ID, password, date and time from/to and request holidays. 
 
-# Get Started with TimeKeeper Today!
+When a manager logs in they are able to:
 
-Experience the benefits of efficient time tracking and enhanced workforce management. Sign up for TimeKeeper now and revolutionize the way you track employee work hours.
+    - Access the managers area: //mgnt/ 
+    - View employees timesheets
+    - View, approve, reject or cancel employee holiday requests
+    - View employees sick leave
+    - Enter employees sick leave
+    - Clock-in and Clock-out employees
 
-# Sign Up Now or Learn More
+Dependencies
+===========
+    * jQuery
+    * jQuery-datatables
+    * jQuery-timepicker
+    * jQuery-ui
